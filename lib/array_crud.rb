@@ -7,12 +7,13 @@ def create_an_array
 end
 
 def add_element_to_end_of_array
-  []
+  cats = ["fluffy", "garfield", "bub", "maru"]
+  cats.push("henri")
 end
 
 def add_element_to_start_of_array(array, element)
   cats = ["fluffy", "garfield", "bub", "maru"]
-  array.push("henri")
+  array.unshift("henri")
 end
 
 def remove_element_from_end_of_array(array)

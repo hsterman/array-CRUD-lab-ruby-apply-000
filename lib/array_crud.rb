@@ -7,13 +7,12 @@ def create_an_array
 end
 
 def add_element_to_end_of_array
-  cars = ["toyota", "corvette", "beetle"]
-  cars << "bmw"
+  []
 end
 
 def add_element_to_start_of_array(array, element)
-  array = []
-  array.push()
+  cats = ["fluffy", "garfield", "bub", "maru"]
+  array.push("henri")
 end
 
 def remove_element_from_end_of_array(array)
